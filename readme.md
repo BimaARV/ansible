@@ -1,4 +1,4 @@
-Install Python & ansible
+# Install Python & ansible
 
 $ sudo apt install python3
 
@@ -10,7 +10,7 @@ $ pip3 install ansible-lint # linter for ansible
 
 Generate SSH-KEY
 $ ssh-keygen -t rsa -b 4096
-# example path / location ssh-key: ~/.ssh/ansible
+## example path / location ssh-key: ~/.ssh/ansible
 
 Copy *.pub to server
 
