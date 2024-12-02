@@ -1,8 +1,8 @@
 Install Python & ansible
-$ sudo apt install python3
-$ sudo apt install python3-pip
-$ sudo apt install ansible
-$ pip3 install ansible-lint # linter for ansible
+1. $ sudo apt install python3
+2. $ sudo apt install python3-pip
+3. $ sudo apt install ansible
+4. $ pip3 install ansible-lint # linter for ansible
 
 Generate SSH-KEY
 $ ssh-keygen -t rsa -b 4096
