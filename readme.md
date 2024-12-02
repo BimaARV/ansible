@@ -10,7 +10,7 @@ $ pip3 install ansible-lint # linter for ansible
 
 Generate SSH-KEY
 $ ssh-keygen -t rsa -b 4096
-# exampe path / location ssh-key: ~/.ssh/ansible
+# example path / location ssh-key: ~/.ssh/ansible
 
 Copy *.pub to server
 $ ssh-copy-id -f -i <file.pub/location-file.pub> <user>@<ip/domain-host>
