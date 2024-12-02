@@ -19,7 +19,9 @@ $ ssh-keygen -t rsa -b 4096
 
 $ ssh-copy-id -f -i ~/.ssh/ansible.pub srv@10.28.30.11
 
-## SSH login with private key
+### repeat the copy ssh command
+
+## SSH login with private key to test
 
 $ ssh -i ~/.ssh/ansible srv@10.28.30.11
 
