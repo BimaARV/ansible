@@ -7,5 +7,5 @@
 10.28.30.13
 
 [all:vars]
-ansible_ssh_user=srv
+ansible_user=srv
 ansible_ssh_private_key_file=~/.ssh/ansible
