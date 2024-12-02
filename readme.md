@@ -9,8 +9,10 @@ $ sudo apt install ansible
 ## linter for ansible
 $ pip3 install ansible-lint 
 
-Generate SSH-KEY
+##Generate SSH-KEY
+
 $ ssh-keygen -t rsa -b 4096
+
 ## example path / location ssh-key: ~/.ssh/ansible
 
 ## Copy *.pub to server
