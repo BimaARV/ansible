@@ -17,11 +17,11 @@ $ ssh-keygen -t rsa -b 4096
 
 ## Copy *.pub to server
 
-$ ssh-copy-id -f -i <file.pub/location-file.pub> srv@10.28.30.11
+$ ssh-copy-id -f -i ~/.ssh/ansible.pub srv@10.28.30.11
 
 ## SSH login with private key
 
-$ ssh -i <private-key> srv@10.28.30.11
+$ ssh -i ~/.ssh/ansible srv@10.28.30.11
 
 ## Then check the inventory by displaying all hosts
 
