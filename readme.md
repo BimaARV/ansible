@@ -17,11 +17,11 @@ $ ssh-keygen -t rsa -b 4096
 
 ## Copy *.pub to server
 
-$ ssh-copy-id -f -i <file.pub/location-file.pub> <user>@<ip/domain-host>
+$ ssh-copy-id -f -i <file.pub/location-file.pub> <users>@<ip/domain-host>
 
 ## SSH login with private key
 
-$ ssh -i <private-key> <user>@<ip/domain-host>
+$ ssh -i <private-key> <users>@<ip/domain-host>
 
 ## Then check the inventory by displaying all hosts
 
