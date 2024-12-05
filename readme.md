@@ -25,7 +25,7 @@ $ ssh -i ~/.ssh/ansible srv@10.28.30.11
 
 ## Then check the inventory by displaying all hosts
 
-$ ansible-inventory -i inventory –list
+$ ansible-inventory -i inventory --list
 
 ## Testing Ansible connection to hosts
 
